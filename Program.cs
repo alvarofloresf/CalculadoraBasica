@@ -61,8 +61,12 @@ namespace CalculadoraCientifica
                     case 0:
                         Console.WriteLine("--- Gracias ---");
                         break;
-                } 
+                }
+                Console.WriteLine("Quieres Realizar otra operacion?? 1. Si 2. No");
+                op = int.Parse(Console.ReadLine());
+                
             } while (op != 0);
+            
         }
     }
 }
