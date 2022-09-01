@@ -30,7 +30,7 @@ namespace CalculadoraCientifica
                         break;
                     case 2:
                         float res1 = 0;
-                        Console.WriteLine("--- Suma ---");
+                        Console.WriteLine("--- Resta ---");
                         Console.WriteLine("Ingrese un numero");
                         float num3 = float.Parse(Console.ReadLine());
                         Console.WriteLine("Ingrese otro numero");
@@ -40,7 +40,7 @@ namespace CalculadoraCientifica
                         break;
                     case 3:
                         float res2 = 0;
-                        Console.WriteLine("--- Suma ---");
+                        Console.WriteLine("--- Multiplicacion ---");
                         Console.WriteLine("Ingrese un numero");
                         float num5 = float.Parse(Console.ReadLine());
                         Console.WriteLine("Ingrese otro numero");
@@ -50,7 +50,7 @@ namespace CalculadoraCientifica
                         break;
                     case 4:
                         float res3 = 0;
-                        Console.WriteLine("--- Suma ---");
+                        Console.WriteLine("--- Division ---");
                         Console.WriteLine("Ingrese un numero");
                         float num7 = float.Parse(Console.ReadLine());
                         Console.WriteLine("Ingrese otro numero");
@@ -62,7 +62,12 @@ namespace CalculadoraCientifica
                         Console.WriteLine("--- Gracias ---");
                         break;
                 }
-                Console.WriteLine("Quieres Realizar otra operacion?? 1. Si 2. No");
+                Console.WriteLine("Quieres Realizar otra operacion??");
+                Console.WriteLine("1. Suma");
+                Console.WriteLine("2. Resta");
+                Console.WriteLine("3. Multiplicacion");
+                Console.WriteLine("4. Division");
+                Console.WriteLine("0. Salir");
                 op = int.Parse(Console.ReadLine());
                 
             } while (op != 0);
